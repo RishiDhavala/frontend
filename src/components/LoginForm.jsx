@@ -157,20 +157,22 @@ const LoginForm = () => {
             isLoading={isLoading}
             variant="solid"
             background="blue.600"
+            color="white"
           >
             Log In
           </Button>
-          <Link
+          <link
             width="full"
             mt={4}
             href="/admin"
             isLoading={isLoading}
             variant="solid"
             background="blue.600"
+            color="white"
           >
             Admin Log In
-          </Link>
-          <Link
+          </link>
+          <link
             width="full"
             mt={4}
             href="/register"
@@ -179,7 +181,7 @@ const LoginForm = () => {
             background="blue.600"
           >
           New User?Register Now
-          </Link>
+          </link>
             <Center pt="1rem">
             <button
               onClick={showHelpModal}
