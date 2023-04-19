@@ -191,17 +191,16 @@ const LoginForm = () => {
             variant="solid"
             background="blue.600"
           >
-            Sign In
+            Register
           </Button>
           <Button
             width="full"
             mt={4}
-            onClick={navigate("/login")}
-            isLoading={isLoading}
+            
             variant="solid"
             background="blue.600"
           >
-            Continue to Login
+           <Link to="/login">Continue to Login</Link> 
           </Button>
           <Center pt="1rem">
             <button
