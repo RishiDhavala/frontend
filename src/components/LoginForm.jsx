@@ -165,7 +165,7 @@ const LoginForm = () => {
             width="full"
             mt={4}
             href="/admin"
-            isLoading={isLoading}
+            
             variant="solid"
             background="blue.600"
             color="white"
