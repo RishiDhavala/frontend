@@ -160,6 +160,26 @@ const LoginForm = () => {
           >
             Log In
           </Button>
+          <Link
+            width="full"
+            mt={4}
+            href="/admin"
+            isLoading={isLoading}
+            variant="solid"
+            background="blue.600"
+          >
+            Admin Log In
+          </Link>
+          <Link
+            width="full"
+            mt={4}
+            href="/register"
+            isLoading={isLoading}
+            variant="solid"
+            background="blue.600"
+          >
+          New User?Register Now
+          </Link>
             <Center pt="1rem">
             <button
               onClick={showHelpModal}
