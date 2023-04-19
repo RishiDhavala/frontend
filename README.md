@@ -6,7 +6,7 @@ This repository contains the source code to the website and server used as the c
 
 ## Contest Structure
 1) A clue will be provided at each level.
-2) Each level in the treasure hunt consists of **2 parts**.
+2) Each level in the treasure hunt consists of a riddle that is to be solved to access the next riddle.
 3) Once you solve clue the score will be updated.
 4) Hunt is sucesful only if all the clues are answered
 
