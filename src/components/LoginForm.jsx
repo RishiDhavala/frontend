@@ -174,6 +174,17 @@ const LoginForm = () => {
           >
           <Link to="/admin">Admin Login </Link> 
           </Button>
+  <Button
+            width="full"
+            mt={4}
+          
+            
+            variant="solid"
+            background="blue.600"
+            color="white"
+          >
+          <Link to="/register">Register Here </Link> 
+          </Button>
           
             <Center pt="1rem">
             <button
