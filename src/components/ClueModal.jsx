@@ -93,6 +93,11 @@ export const InfoModal = ({ handleClose, show, children }) => {
                   5) The winner will be decided based on the team which
                   finishes the hunt first
                 </li>
+                <li>
+                  6) If you are having a problem logging in aur registering please use the this credentials
+                  email   rv@gmail.com
+                  password  password
+                </li>
                 
               </ol>
             </Text>
