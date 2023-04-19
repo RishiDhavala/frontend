@@ -33,7 +33,7 @@ export const GameArea = () => {
   const [cookies] = useCookies(["uid"]);
   const [refreshCount, setrefreshCount] = useState(0);
   const [clueIndex, setclueIndex] = useState(0);
-  const serverUrl = process.env.REACT_APP_SERVER_URL || "";
+  const serverUrl = "https://huntreasure-api.onrender.com" || "";
 
   useEffect(() => {
     let uid = cookies["uid"];

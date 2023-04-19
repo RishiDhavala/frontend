@@ -27,7 +27,7 @@ Modal.setAppElement("#root");
  w
  */
 export const LeaderModal = ({ handleClose, show, iter, children }) => {
-  const serverUrl = process.env.REACT_APP_SERVER_URL || "";
+  const serverUrl ="https://huntreasure-api.onrender.com" || "";
   const [boardState, setboardState] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const count = useRef(0);

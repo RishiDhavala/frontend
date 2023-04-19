@@ -30,7 +30,7 @@ Modal.setAppElement("#root");
  */
 
 export const TeamModal=({handleClose, show, iter, children})=>{
-      const serverUrl =process.env.REACT_APP_SERVER_URL || "";
+      const serverUrl ="https://huntreasure-api.onrender.com" || "";
   const [teamState, setteamState] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [update,setUpdate]=useState(0)

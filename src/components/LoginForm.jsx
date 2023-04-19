@@ -47,7 +47,7 @@ const LoginForm = () => {
   const [showHelp, setshowHelp] = useState(false);
 
   const axios = require("axios").default;
-  const serverUrl = process.env.REACT_APP_SERVER_URL|| "";
+  const serverUrl = "https://huntreasure-api.onrender.com"|| "";
   const [isLoading, setLoading] = useState(false);
   const [cookies, setCookie, removeCookie] = useCookies(["uid"]);
 
