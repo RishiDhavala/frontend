@@ -1,24 +1,27 @@
 
-# COSMIC PURSUIT - Contest Platform
-Cosmic Pursuit is an on-campus treasure hunt organized by [RIT S.T.A.R.D.U.ST]( https://teamstardust.herokuapp.com/) on 10th Jun, 2022. The event witnessed around 150 participants in the form of 50+ teams.
+#Treasure Hunt
+
 
 This repository contains the source code to the website and server used as the contest portal and leaderboard in order to make the hunt more interactive and engaging.
 
 ## Contest Structure
-1) A map will be provided to the teams, each college building is named as a planet or a space object.
+1) A clue will be provided at each level.
 2) Each level in the treasure hunt consists of **2 parts**.
-3) The **first part of the level is a puzzle** will be handed over to you on a piece of paper. (Please note the puzzle on the paper has nothing to do with the next location)
-4) **Important :** For every round immediately scan the QR code on the paper before you solve the puzzle. Once you scan the QR code, your points will be reflected on the leaderboard.
-5) Once you solve the puzzle given on the paper, go ahead and enter the code on the website.
-6) If you have entered the correct code, a **4 liner** would be displayed on the website.
-7) The second part - **4 liner is a hint to your next location**. (It hints at the next location either using the planet or the description of the place itself or both)
-8) Once you have cracked the clue, go to the location you just figured, the volunteers there will hand you out the puzzle for the next level, now scan the QR code given and solve the puzzle.
-9) The cycle repeats. 
-> Paper -> Scan for points -> Solve -> Enter code on website -> Website gives 4 liner -> Crack it -> Go to the next location & repeat
+3) Once you solve clue the score will be updated.
+4) Hunt is sucesful only if all the clues are answered
 
-## Screenshots
+Features Check List:
+User Registration and Authentication
+Clues 
+User Progress
+Leaderboard(can only be accessed by admin)
 
-<img src="https://user-images.githubusercontent.com/37346450/173631043-82058ef1-5ae1-4928-a29f-f9830b27a7fd.jpg" height="400" float="left"/><img src="https://user-images.githubusercontent.com/37346450/173631101-75db8cc8-f01d-4c8c-b319-8ecbdcb04862.jpg" height="400" float="left"/><img src="https://user-images.githubusercontent.com/37346450/173631155-05920730-614d-4f5a-bbff-9bb2d4748648.jpg" height="400" float="left"/><img src="https://user-images.githubusercontent.com/37346450/173631246-ef061fc3-4f6f-44ef-a638-b0ecec6fccd4.jpg" height="400" float="left"/><img src="https://user-images.githubusercontent.com/37346450/173637029-7f345b1a-dfbf-4235-bb45-834db17fa10c.jpg" height="400" float="left"/>
+Admin Credentials:
+Userid:admin123
+password:admin123
+email:admin@gmail.com
+
+This hunt tests various soft skills of User like that of Creative Thinking,Critical Thinking,Aptitude,General Knowledge and Problem Solving
 
 
 ## Installation
@@ -68,21 +71,4 @@ This repository contains the source code to the website and server used as the c
      ```
     >Runs the server in the development mode at [http://localhost:5000](http://localhost:5000).
 
-## Idea & Concept
 
-- Reesha Shenoy
-	- Design Head @ Non-Tech Team - RIT STARDUST
-	- GitHub: [@reeshaa](https://github.com/reeshaa/)
-	- LinkedIn: [@reesha-shenoy](https://www.linkedin.com/in/reesha-shenoy/)
-
-## Design & Development
-
-1. Suraj Kumar P 
-	- GitHub: [@psk907](https://github.com/psk907/)
-	- LinkedIn: [@suraj-kumar-p](https://linkedin.com/in/suraj-kumar-p/)
-2. Aakash 
-	- GitHub: [@aakashpothepalli](https://github.com/aakashpothepalli)
-	- LinkedIn: [@aakashpothepalli](https://www.linkedin.com/in/aakashpothepalli/)
-3. Dhruv Dange
-	- GitHub: [@DhruvDange](https://github.com/DhruvDange)
-	- LinkedIn: [@dhruv-dange](https://www.linkedin.com/in/dhruv-dange/)
