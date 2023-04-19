@@ -35,7 +35,7 @@ const App = () => {
           <Route exact path="/register" element={<RegisterPage/>}/>
           <Route exact path="/login" element={<LoginPage />} />
           <Route exact path="/admin" element={<AdminLoginPage/>}/>
-          <Route exact path="/adminDashboard" element={<Admin/>}/>
+          <Route exact path="/adminDashboard" element={!cookies["uid"] ?<AdminLoginPage/>:<Admin/>}/>
           <Route
             exact
             path="/"

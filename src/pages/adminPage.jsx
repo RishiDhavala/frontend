@@ -80,7 +80,7 @@ console.log(boardState);
             aspectRatio: 1,
             backgroundSize: "contain",
             backgroundClip: "border-box",
-            backgroundImage: `url(${Frame})`,
+            backgroundImage: "",
             backgroundRepeat: "no-repeat",
             alignItems: "center",
             display: "flex",

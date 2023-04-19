@@ -79,40 +79,19 @@ export const HelpModal = ({ handleClose, show, children }) => {
                 }}
               >
                 <li>
-                  1) This website was developed for use during a live Treasure
-                  Hunt competition.
+                  1) This website was developed for  Treasure
+                  Hunt .
                 </li>
                 <br />
                 <li>
-                  2) If you were a participant, you can use your existing
+                  2) If you are a participant, you can use your existing
                   credentials.
                 </li>
                 <br />
-                <li>
-                  3) Otherwise, you can use the following credentials:
-                  <br />
-                  <b>Team ID: </b>
-                  <code>101</code>
-                  <br />
-                  <b>Password: </b>
-                  <code>PASS</code>
-                  <br />
-                  <b>Team ID: </b>
-                  <code>102</code>
-                  <br />
-                  <b>Password: </b>
-                  <code>PASS</code>
-                  <br />
-                  <b>Team ID: </b>
-                  <code>103</code>
-                  <br />
-                  <b>Password: </b>
-                  <code>PASS</code>
-                </li>
-                <br />
+              
 
                 <li>
-                  4) Internet access and QR codes/solutons is needed for
+                  4) Internet access  is needed for
                   answering the questions.
                 </li>
               </ol>

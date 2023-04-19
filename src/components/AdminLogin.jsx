@@ -179,6 +179,17 @@ const AdminLoginForm = () => {
             Sign In
           </Button>
 
+             <Button
+            width="full"
+            mt={4}
+            
+            
+            variant="solid"
+            background="blue.600"
+          >
+         <Link to="/login">Player Login</Link>  
+          </Button>
+
           
           <Center pt="1rem">
             <button

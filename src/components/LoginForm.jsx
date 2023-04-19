@@ -15,6 +15,8 @@ import { useCookies } from "react-cookie";
 import { Link, useNavigate } from "react-router-dom";
 import MainPanel from "./MainPanel";
 import MainPanelChild from "./MainPanelChild";
+import { AdminLogin } from "./AdminLogin";
+
 
 export const LoginArea = () => {
   return (
@@ -164,13 +166,13 @@ const LoginForm = () => {
           <Button
             width="full"
             mt={4}
-            href="/admin"
+          
             
             variant="solid"
             background="blue.600"
             color="white"
           >
-            Admin Login
+          <Link to="/admin">Admin Login </Link> 
           </Button>
           
             <Center pt="1rem">

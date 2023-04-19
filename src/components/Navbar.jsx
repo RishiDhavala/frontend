@@ -9,6 +9,8 @@ import { InfoModal } from "./ClueModal";
 import { LeaderModal } from "./LeaderBoardModal";
 import { MapModal } from "./MapModal";
 import { TeamModal } from "./teamModal";
+import PowerIcon from "../assets/power-off-svgrepo-com.svg"
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   const [cookies, setCookie, removeCookie] = useCookies(["uid"]);
@@ -18,6 +20,7 @@ export const Navbar = () => {
   const [showMap, setshowMap] = useState(false);
   const[showTeam,setShowTeam]=useState(false);
   const [loading,setLoading]=useState(false);
+  const navigate=useNavigate()
 
   function handleLogout(event) {
     event.preventDefault();
@@ -26,6 +29,8 @@ export const Navbar = () => {
     // console.log("password:", password);
     removeCookie("uid");
     setLoading(false);
+    
+    
   }
  
 
@@ -92,7 +97,7 @@ export const Navbar = () => {
             isRound="true"
             onClick={handleLogout}
           >
-            <Image height="5vh" src={MapIcon}></Image>
+            <Image height="5vh" src={PowerIcon}></Image>
           </IconButton>
         </Flex>
         

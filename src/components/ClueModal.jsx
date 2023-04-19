@@ -75,50 +75,25 @@ export const InfoModal = ({ handleClose, show, children }) => {
             <Text p={2}>
               <ol>
                 <li>
-                  1) All the clues will be hidden in the vicinity of the Map
-                  provided. (Inside the campus of MSRIT)
+                  1)There are 5 stages of the game
                 </li>
                 <li>
-                  2) You have to complete the treasure hunt within a stipulated
-                  time period.
+                  2) You have to complete one riddle to access the next one
                 </li>
                 <li>
-                  3) The clues will be handed over to the teams by the STARDUST
-                  Volunteers.
+                  3) The clues will test different soft skils of the player
                 </li>
-                <li>4) Do not break anything.</li>
+                
+                
                 <li>
-                  5) Don't jump over compounds or harm plants or property.
+                  4) Internet access is needed for answering the questions.
                 </li>
+                
                 <li>
-                  6) Teams are not permitted inside any classrooms or staff
-                  rooms.
-                </li>
-                <li>
-                  7) Team members should not scream around the campus when
-                  classes are in session, as strict disciplinary rules must be
-                  maintained.
-                </li>
-                <li>
-                  8) If a team/teams continues to disturb the discipline of the
-                  campus even after warning, immediate action will be taken
-                  leading to disqualification.
-                </li>
-                <li>
-                  9) Internet access is needed for answering the questions.
-                </li>
-                <li>
-                  10) The website can be accessed by a maximum of 2 users from a
-                  team.
-                </li>
-                <li>
-                  11) The winner will be decided based on the team which
+                  5) The winner will be decided based on the team which
                   finishes the hunt first
                 </li>
-                <li>
-                  12) Incase of any dispute, the decision of RIT STARDUST will
-                  be final
-                </li>
+                
               </ol>
             </Text>
           </Box>
