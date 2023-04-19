@@ -17,6 +17,7 @@ export const Navbar = () => {
   const [showLeader, setshowLeader] = useState(false);
   const [showMap, setshowMap] = useState(false);
   const[showTeam,setShowTeam]=useState(false);
+  const [loading,setLoading]=useState(false);
 
   function handleLogout(event) {
     event.preventDefault();
