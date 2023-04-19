@@ -94,6 +94,12 @@ export const HelpModal = ({ handleClose, show, children }) => {
                   4) Internet access  is needed for
                   answering the questions.
                 </li>
+                
+                 <li>
+                  5) If you are having a problem logging in aur registering please use the this credentials
+                  email   rv@gmail.com
+                  password  password
+                </li>
               </ol>
             </Text>
           </Box>
