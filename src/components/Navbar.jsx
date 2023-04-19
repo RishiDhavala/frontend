@@ -18,6 +18,14 @@ export const Navbar = () => {
   const [showMap, setshowMap] = useState(false);
   const[showTeam,setShowTeam]=useState(false);
 
+  function handleLogout(event) {
+    event.preventDefault();
+    setLoading(true);
+    // console.log("teamId:", teamId);
+    // console.log("password:", password);
+    removeCookie("uid");
+    setLoading(false);
+  }
  
 
   const showClueModal = (event) => {
@@ -76,7 +84,16 @@ export const Navbar = () => {
             <Image height="5vh" src={MapIcon}></Image>
           </IconButton>
         </Flex>
-
+<Flex position="relative" pr={3} justify="flex-end">
+          <IconButton
+            isDisabled={cookies["uid"] ? false : true}
+            colorScheme="whiteAlpha"
+            isRound="true"
+            onClick={handleLogout}
+          >
+            <Image height="5vh" src={MapIcon}></Image>
+          </IconButton>
+        </Flex>
         
 
         <InfoModal show={showClue} handleClose={hideModal}></InfoModal>

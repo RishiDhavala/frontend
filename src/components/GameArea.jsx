@@ -30,7 +30,7 @@ export const GameArea = () => {
   const [scannedKey, setScannedKey] = useState();
   const [riddleAns, setriddleAns] = useState();
   const [loading, setloading] = useState(true);
-  const [cookies] = useCookies(["uid"]);
+  const [cookies,removeCookie] = useCookies(["uid"]);
   const [refreshCount, setrefreshCount] = useState(0);
   const [clueIndex, setclueIndex] = useState(0);
   const serverUrl = "https://huntreasure-api.onrender.com" || "";
@@ -53,6 +53,17 @@ export const GameArea = () => {
         }
       });
   }, [refreshCount]);
+
+
+   function handleLogout(event) {
+    event.preventDefault();
+    setLoading(true);
+    // console.log("teamId:", teamId);
+    // console.log("password:", password);
+    removeCookie("uid");
+    setLoading(false);
+  }
+
 
   const isQrStage = () => {
     return (
