@@ -29,7 +29,7 @@ export const GameArea = () => {
   const [showAltQrTextBox, setshowAltQrTextBox] = useState(false);
   const [scannedKey, setScannedKey] = useState();
   const [riddleAns, setriddleAns] = useState();
-  const [loading, setloading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [cookies,removeCookie] = useCookies(["uid"]);
   const [refreshCount, setrefreshCount] = useState(0);
   const [clueIndex, setclueIndex] = useState(0);
@@ -49,7 +49,7 @@ export const GameArea = () => {
         if (response.status === 200) {
           setgameState(response.data);
           initializeClueIndex(response.data);
-          setloading(false);
+          setLoading(false);
         }
       });
   }, [refreshCount]);
